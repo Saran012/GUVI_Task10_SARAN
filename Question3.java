@@ -38,8 +38,8 @@ public class Question3 {
       loginButton.click();
 
 
-      wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("email"))).sendKeys("demo1234567@gmail.com");
-      driver.findElement(By.id("password")).sendKeys("Demo@1234567");
+      wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("email"))).sendKeys("saranshanmugavel1@gmail.com");
+      driver.findElement(By.id("password")).sendKeys("Zmalqp@123?");
 
       WebElement loginButton2 = driver.findElement(By.xpath("//a[text()='Login']"));
       loginButton2.click();
